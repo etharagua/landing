@@ -181,7 +181,7 @@ export default function Projects() {
                 summary="Un faucet de redes de prueba es un servicio que te proporciona pequeñas cantidades de criptomonedas de forma gratuita. Estas criptomonedas no tienen valor real, pero te permiten experimentar con la tecnología y familiarizarte con el funcionamiento de una blockchain."
                 img={proj1}
                 link="https://faucet.aragua.org"
-                github="https://github.com/ethereumaragua/faucet"
+                github="https://github.com/etharagua/faucet"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -191,7 +191,7 @@ export default function Projects() {
                 summary="DApp de gobernanza diseñada para DAOs, orientada a automatizar el proceso de contratación digital, la creación y asignación de bounties y la ejecución de tareas."
                 img={proj2}
                 link="https://smart-hire-2.vercel.app/"
-                github="https://github.com/ethereumaragua/SmartHire"
+                github="https://github.com/etharagua/SmartHire"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -211,7 +211,7 @@ export default function Projects() {
                 summary="A professional portfolio website using React JS, Framer-motion, and Styled-components. It has smooth page transitions, cool background effects, unique design and it is mobile responsive."
                 img={proj4}
                 link="https://aragua.org/videos/build-stunning-portfolio-website-react-js-framer-motion"
-                github="https://github.com/ethereumaragua"
+                github="https://github.com/etharagua"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -220,7 +220,7 @@ export default function Projects() {
                 img={proj5}
                 title="Agency Website Template"
                 link="https://aragua.org/videos/build-stunning-fashion-studio-website-with-reactJS-locomotive-scroll-gsap"
-                github="https://github.com/ethereumaragua"
+                github="https://github.com/etharagua"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -229,7 +229,7 @@ export default function Projects() {
                 img={proj6}
                 title="ETHAragua"
                 link="https://aragua.org"
-                github="https://github.com/ethereumaragua"
+                github="https://github.com/etharagua"
               />
             </div> */}
           </div>
