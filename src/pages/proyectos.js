@@ -8,6 +8,8 @@ import Link from "next/link";
 import proj1 from "../../public/images/projects/faucet.jpg";
 import proj2 from "../../public/images/projects/smarthire.png";
 import proj3 from "../../public/images/projects/proj3.jpg";
+import proj4 from "../../public/images/projects/DaoSphere.png";
+import proj5 from "../../public/images/projects/certificados.png";
 // import proj4 from "../../public/images/projects/portfolio-cover-image.jpg";
 // import proj5 from "../../public/images/projects/agency-website-cover-image.jpg";
 // import proj6 from "../../public/images/projects/devdreaming.jpg";
@@ -186,7 +188,7 @@ export default function Projects() {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="(Hackathon) DAO, Governanza"
+                type="(Hackathon) DAO, Governanza, Solidity"
                 title="SmartHire"
                 summary="DApp de gobernanza diseñada para DAOs, orientada a automatizar el proceso de contratación digital, la creación y asignación de bounties y la ejecución de tareas."
                 img={proj2}
@@ -202,6 +204,28 @@ export default function Projects() {
                 img={proj3}
                 link="https://devpost.com/software/tokenizacion-de-activos-inmobiliarios"
                 github="https://github.com/garciadervin/TokenDApp"
+              />
+            </div>
+
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                type="(Hackathon) DAO, Governanza, StarkNet"
+                title="DaoSphere"
+                summary="DApp de gobernanza que facilita a las DAO la toma de decisiones para resolver problemas o casos que les afectan 🗳️. Para ello, se utiliza un sistema de votación transparente."
+                img={proj4}
+                link="https://dao-sphere.vercel.app/"
+                github="https://github.com/etharagua/DaoSphere"
+              />
+            </div>
+            
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                type="Aprendizaje, Desarrollo"
+                title="Certificados"
+                summary="Sistema de certificaciones onchain en la red de @Scroll_ZKP 📜✨ para los cursos  impartidos por ETHAragua, la @UPTAragua y próximamente también por @ETHVenezuela."
+                img={proj5}
+                link="https://certificados.aragua.org/"
+                github="https://github.com/etharagua/certificados"
               />
             </div>
             {/*<div className="col-span-12">
