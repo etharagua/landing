@@ -78,11 +78,13 @@ export default function Home() {
 
         {/* <HireMe /> */}
         <div className="absolute inline-block w-24 right-8 bottom-8 md:hidden">
-          <Image
-            className="relative w-full h-auto"
-            src={ethLogo}
-            alt="ETHAragua"
-          />
+          <a href="https://ethvenezuela.org" target="_blank" title="Visita Ethereum Venezuela">
+            <Image
+              className="relative w-full h-auto transition-all duration-200 hover:scale-125 ease"
+              src={ethLogo}
+              alt="ETHAragua"
+            />
+          </a>
         </div>
       </article>
     </>
