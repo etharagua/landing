@@ -6,10 +6,10 @@ import blog1 from "../../public/images/articles/ethuniversity.jpg";
 import blog2 from "../../public/images/articles/bulevar.jpg";
 import blog3 from "../../public/images/articles/tornado.png";
 import blog4 from "../../public/images/articles/jardininfinito.jpg";
-// import blog5 from "../../public/images/articles/create modal component in react using react portals.png";
-// import blog6 from "../../public/images/articles/todo list app built using react redux and framer motion.png";
-// import blog7 from "../../public/images/articles/What is Redux with easy explanation.png";
-// import blog8 from "../../public/images/articles/What is higher order component in React.jpg";
+import blog5 from "../../public/images/articles/portada1.jpg";
+import blog6 from "../../public/images/articles/portada2.jpg";
+import blog7 from "../../public/images/articles/1.jpg";
+import blog8 from "../../public/images/articles/2.jpg";
 
 import Layout from "@/components/Layout";
 import Link from "next/link";
@@ -139,18 +139,18 @@ export default function Articles() {
 
           <ul className="grid grid-cols-2 gap-16 lg:gap-8 md:grid-cols-1 md:gap-y-16">
             <FeaturedArticle
-              img={blog4}
-              title="El Jardín Infinito: Bienvenidos a la Ethereum Virtual Machine"
-              time="6 min de lectura"
-              summary="La visión filosófica detrás de Ethereum."
-              link="https://blog.aragua.org/blogs/el-jardin-infinito"
+              img={blog8}
+              title="Primer Capítulo del Seminario Blockchain 2025: Onboarding"
+              time="5 min de lectura"
+              summary="Jornada de análisis, adopción y aprendizaje, fundamentos, aplicaciones y experiencias prácticas para entender el presente de la tecnología."
+              link="https://blog.aragua.org/blogs/seminario-blockchain-2025-onboarding"
             />
             <FeaturedArticle
-              img={blog3}
-              title="La Privacidad como un Derecho Fundamental: El Caso Tornado Cash y las Sanciones de la OFAC"
-              time="10 min de lectura"
-              summary="El caso de Tornado Cash plantea una pregunta crucial: ¿es la privacidad un derecho fundamental o un lujo que puede ser restringido?"
-              link="https://blog.aragua.org/blogs/la-privacidad-como-un-derecho-fundamental-el-caso-tornado-cash-y-las-sanciones-de-la-ofac"
+              img={blog7}
+              title="El Boom de los NFT: Una Revolución Digital"
+              time="8 min de lectura"
+              summary="Análisis de como transformaron la propiedad digital, desde su explosivo auge hasta su actual evolución hacia aplicaciones prácticas y sostenibles."
+              link="https://blog.aragua.org/blogs/el-boom-de-los-nft"
             />
           </ul>
 
@@ -159,6 +159,31 @@ export default function Articles() {
           </h2>
 
           <ul className="relative flex flex-col items-center">
+          <Article
+              title="Creando tu propia Criptomoneda: Una Guía Educativa Paso a Paso"
+              img={blog6}
+              date="Abril 6, 2025"
+              link="https://blog.aragua.org/blogs/crea-tu-propia-criptomoneda"
+            />
+            <Article
+              title="El tema de las Criptomonedas en Venezuela: Evolución, Adaptación y Perspectivas"
+              img={blog5}
+              date="Abril 4, 2025"
+              link="https://blog.aragua.org/blogs/el-tema-de-las-criptomonedas-en-venezuela-segunda-parte"
+            />
+          <Article
+              title="El Jardín Infinito: Bienvenidos a la Ethereum Virtual Machine"
+              time="6 min de lectura"
+              img={blog4}
+              date="Marzo 24, 2025"
+              link="https://blog.aragua.org/blogs/el-jardin-infinito"
+            />
+            <Article
+              title="La Privacidad como un Derecho Fundamental: El Caso Tornado Cash y las Sanciones de la OFAC"
+              img={blog3}
+              date="Noviembre 27, 2024"
+              link="https://blog.aragua.org/blogs/la-privacidad-como-un-derecho-fundamental-el-caso-tornado-cash-y-las-sanciones-de-la-ofac"
+            />
             <Article
               title="El tema de las Criptomonedas en Venezuela: Una necesidad, una puerta al futuro, o ambas"
               img={blog2}
